@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+/*************************** Navbar Section **************************/
+
+.navbar {
+    background-color: #5A20CB;
+    border-radius: 50px 50px 0 0;
+    padding: 60px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar > img {
+    width: 120px;
+}
+
+.navRight > a{
+    margin-right: 40px;
+    color: #ffffff;
+}
+
+a:first-child {
+    color: #5ae7e7;
+    border-bottom: 1px solid #fc5353;
+}
+
+.navBtn {
+    padding: 12px 20px;
+    background-color: #5fc1c4;
+    border: none;
+    font-size: 15px;   
+    color: #ffffff;
+}
+
+.menu {
+    display: none;
+}
+
+/*************************** Hero Section **************************/
+
+.heroSection {
+    background-color: #5A20CB;
+    padding: 0 20px 60px 150px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.heroSection h1 {
+    font-size: 56px;
+    color: #ffffff;
+}
+
+.heroSection p {
+    font-size: 16px;
+    width: 70%;
+    margin-top: 50px;
+    color: #ffffff;
+}
+
+.heroSection > img {
+    width: 45vw;
+}
+
+/*************************** Benefits Section **************************/
+
+.benefits {
+    display: flex;
+    padding: 100px 120px 50px 120px;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.benefits h2 {
+    font-size: 32px;
+}
+
+.benefit {
+    margin: 50px 0 0 15px;
+}
+
+.benefits h3 {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.benefits p {
+    margin: 0 0 50px 30px;
+    font-size: 14px;
+}
+
+.benefits > img {
+    width: 45vw;
+    margin-right: 20px;
+}
+
+h3 > img {
+    width: 15px;
+}
+
+/*************************** Benefits Section **************************/
+
+.features {
+    padding: 50px 200px;
+}
+
+.features h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 4px 4px 3.6px;
+    text-align: center;
+}
+.wrapper {
+    margin: 20px;
+    border-radius: 100%;
+    background-color: #5A20CB;
+    display: inline-block;
+}
+
+.card  img {
+    width: 60px;
+    padding: 35px;
+}
+
+.card > .text {
+    padding: 10px 20px;
+}
+
+.card > .text > p {
+    margin: 10px auto 0 auto ;
+    width: 85%;
+}
+
+.pink {
+    background-color: #fc535333;
+}
+
+.orange {
+    background-color: #fc535322;
+}
+
+.green {
+    background-color: #5fc4a622;
+}
+
+.purple {
+    background-color: #b461d722;
+}
+
+.pink ~ .text {
+    background-color: #5A20CB;
+    color: #ffffff;
+    border-radius: 20px;
+}

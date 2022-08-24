@@ -1,0 +1,95 @@
+@media screen and (max-width: 1120px) {
+  /*************************** Navbar Section **************************/
+
+  .navbar {
+    padding: 60px 20px;
+  }
+
+  .navbar > img {
+    width: 100px;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .navRight {
+    display: none;
+  }
+
+  /*************************** Hero Section **************************/
+
+  .heroSection {
+    padding: 0 20px 60px 20px;
+  }
+
+  /*************************** Benefits Section **************************/
+
+  .benefits {
+    padding: 80px 20px 50px 20px;
+  }
+
+  /*************************** Benefits Section **************************/
+
+  .features {
+    padding: 50px 20px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  /*************************** Hero Section **************************/
+
+  .heroSection {
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+  }
+
+  .heroSection h1 {
+    font-size: 46px;
+  }
+
+  .heroSection p {
+    margin-top: 20px;
+    width: 90%;
+  }
+
+  .heroSection > img {
+    width: 90vw;
+  }
+
+  /*************************** Benefits Section **************************/
+
+  .benefits {
+    flex-wrap: wrap;
+    /* justify-content: center; */
+  }
+
+  .benefits h2 {
+    font-size: 30px;
+  }
+
+  .benefit {
+    margin: 40px 0 0 15px;
+  }
+
+  .benefits h3 {
+    font-size: 20px;
+  }
+
+  .benefits > img {
+    width: 90vw;
+    margin-right: 20px;
+  }
+
+  /*************************** Benefits Section **************************/
+
+
+.features h2 {
+    font-size: 30px;
+}
+
+.cards {
+    flex-wrap: wrap;
+}
+
+}
